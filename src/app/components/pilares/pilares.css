@@ -1,0 +1,9 @@
+
+.swiper-pagination-bullet {
+    background: #d8b4fe; /* Tailwind purple-300 */
+    opacity: 1;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: #7e22ce; /* Tailwind purple-700 */
+  }
