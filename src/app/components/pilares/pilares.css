@@ -1,9 +1,31 @@
 
 .swiper-pagination-bullet {
-    background: #d8b4fe; /* Tailwind purple-300 */
-    opacity: 1;
+    background: #d8b4fe !important; /* Tailwind purple-300 */
+    opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #7e22ce !important; /* Tailwind purple-700 */
+}
+
+.pilares-swiper {
+  padding: 0px 0px 30px 0px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .pilares-swiper {
+    padding: 0px 0px 0px 0px !important;
   }
   
-  .swiper-pagination-bullet-active {
-    background: #7e22ce; /* Tailwind purple-700 */
-  }
+}
+
+.swiper-pagination {
+  bottom: -6px !important;
+  left: 0 !important;
+  right: 0 !important;
+  text-align: center !important;
+}
+
+.shadow-bottom-left {
+  box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.15) !important;
+}

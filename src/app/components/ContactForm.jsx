@@ -26,88 +26,72 @@ export default function FormContact() {
   };
 
   return (
-    <section className="max-w-2xl mx-auto px-4 py-16">
-      <div className="mb-8">
-        <h2 className="text-3xl font-bold text-purple-600 mb-4">Soluciones a tu medida</h2>
-      </div>
-
-      <form onSubmit={handleSubmit} className="space-y-6">
-        {/* Tipo de cliente */}
-        <div>
-          <select
-            name="tipo"
-            value={formData.tipo}
-            onChange={handleChange}
-            required
-            className="w-full border border-gray-300 rounded-md p-3 focus:ring-2 focus:ring-purple-500"
-          >
-            <option value="">Empresa o Particular</option>
-            <option value="empresa">Empresa</option>
-            <option value="particular">Particular</option>
-          </select>
-        </div>
-
-        {/* Nombre de la empresa */}
-        <div>
-          <input
-            type="text"
-            name="empresa"
-            value={formData.empresa}
-            onChange={handleChange}
-            placeholder="Nombre de la empresa"
-            className="w-full border border-gray-300 rounded-md p-3 focus:ring-2 focus:ring-purple-500"
-          />
-        </div>
-
-        {/* Nombre del solicitante */}
-        <div>
-          <input
-            type="text"
-            name="solicitante"
-            value={formData.solicitante}
-            onChange={handleChange}
-            placeholder="Nombre del solicitante"
-            className="w-full border border-gray-300 rounded-md p-3 focus:ring-2 focus:ring-purple-500"
-          />
-        </div>
-
-        {/* Correo electrónico */}
-        <div>
-          <input
-            type="email"
-            name="correo"
-            value={formData.correo}
-            onChange={handleChange}
-            required
-            placeholder="Correo electrónico"
-            className="w-full border border-gray-300 rounded-md p-3 focus:ring-2 focus:ring-purple-500"
-          />
-        </div>
-
-        {/* Ubicación */}
-        <div>
-          <select
-            name="ubicacion"
-            value={formData.ubicacion}
-            onChange={handleChange}
-            required
-            className="w-full border border-gray-300 rounded-md p-3 focus:ring-2 focus:ring-purple-500"
-          >
-            <option value="">Ubicación</option>
-            <option value="peru">Perú</option>
-            <option value="usa">USA</option>
-          </select>
-        </div>
-
-        {/* Botón de envío */}
+    <section className="absolute left-1/2 bottom-0 transform -translate-x-1/2 translate-y-1/2 bg-white max-w-4xl w-full mx-auto px-8 py-4 border border-gray-200 border-b-40 border-b-purple-600 rounded-4xl shadow-md">
+      <div className="flex justify-between items-center mb-4">
+        <h2 className="text-1xl font-bold text-purple-600">SOLUCIONES A TU MEDIDA</h2>
         <div className="flex justify-start">
           <button
             type="submit"
-            className="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-md transition"
+            className="cursor-pointer text-black hover:underline font-bold py-3 px-6 rounded-md transition"
+            form="contactForm"
           >
-            Enviar
+            ENVIAR
           </button>
         </div>
+      </div>
+
+      <form onSubmit={handleSubmit} id="contactForm" className="flex flex-col">
+        <select
+          name="tipo"
+          value={formData.tipo}
+          onChange={handleChange}
+          required
+          className="border-0 border-b border-gray-300 p-3 focus:ring-0 focus:border-purple-500"
+        >
+          <option value="">Empresa o Particular</option>
+          <option value="empresa">Empresa</option>
+          <option value="particular">Particular</option>
+        </select>
+
+        <input
+          type="text"
+          name="empresa"
+          value={formData.empresa}
+          onChange={handleChange}
+          placeholder="Nombre de la empresa"
+          className="border-0 border-b border-gray-300 p-3 focus:ring-0 focus:border-purple-500"
+        />
+
+        <input
+          type="text"
+          name="solicitante"
+          value={formData.solicitante}
+          onChange={handleChange}
+          placeholder="Nombre del solicitante"
+          className="border-0 border-b border-gray-300 p-3 focus:ring-0 focus:border-purple-500"
+        />
+
+        <input
+          type="email"
+          name="correo"
+          value={formData.correo}
+          onChange={handleChange}
+          required
+          placeholder="Correo electrónico"
+          className="border-0 border-b border-gray-300 p-3 focus:ring-0 focus:border-purple-500"
+        />
+
+        <select
+          name="ubicacion"
+          value={formData.ubicacion}
+          onChange={handleChange}
+          required
+          className="border-0 border-b border-gray-300 p-3 focus:ring-0 focus:border-purple-500"
+        >
+          <option value="">Ubicación</option>
+          <option value="peru">Perú</option>
+          <option value="usa">USA</option>
+        </select>
       </form>
     </section>
   );

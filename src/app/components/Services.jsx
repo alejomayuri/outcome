@@ -3,45 +3,43 @@
 export default function Services() {
     const services = [
       {
-        title: "Servicio 1",
+        title: "Infraestructura",
         image: "/servicio1.jpg",
         features: [
-          "Característica A",
-          "Característica B",
-          "Característica C",
+          "Limpieza y mantenimiento",
         ],
       },
       {
-        title: "Servicio 2",
+        title: "Seguridad y bienestar",
         image: "/servicio2.jpg",
         features: [
-          "Característica A",
-          "Característica B",
-          "Característica C",
+          "Seguridad y conserjería",
+          "Atención al cliente",
+          "Traslado de personal",
         ],
       },
       {
-        title: "Servicio 3",
+        title: "Operaciones Aeroportuarias",
         image: "/servicio3.jpg",
         features: [
-          "Característica A",
-          "Característica B",
-          "Característica C",
+          "Security aeronáutico",
+          "Atención a personas con poca movilidad",
         ],
       },
       {
-        title: "Servicio 4",
+        title: "ConsultorÌa",
         image: "/servicio4.jpg",
         features: [
-          "Característica A",
-          "Característica B",
-          "Característica C",
+          "Asesorías especializadas"
         ],
       },
     ];
   
     return (
-      <section className="max-w-6xl mx-auto px-4 py-16">
+      <section className="max-w-6xl mx-auto px-4 py-2 md:py-4">
+        <div className="mb-4 md:mb-8 text-left">
+          <h2 className="text-2xl font-bold text-purple-600 ">SERVICIOS</h2>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((service, index) => (
             <div key={index} className="border border-gray-300 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
@@ -51,8 +49,8 @@ export default function Services() {
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-4">{service.title}</h3>
-                <ul className="list-disc list-inside text-gray-600 space-y-1 text-sm">
+                <h3 className="text-sm font-bold mb-2">{service.title}</h3>
+                <ul className="list-none list-inside text-gray-600 space-y-1 text-sm">
                   {service.features.map((feature, i) => (
                     <li key={i}>{feature}</li>
                   ))}
