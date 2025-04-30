@@ -6,7 +6,7 @@ export default function Recruitment() {
     ];
   
     return (
-      <section className="max-w-6xl mx-auto px-4 py-8 md:py-16">
+      <section id="reclutamiento" className="max-w-6xl mx-auto px-4 py-8 md:py-16">
         {/* Bloque principal */}
         <div className="flex flex-col md:flex-row items-center gap-2 md:gap-10 md:mb-12">
           {/* Textos */}

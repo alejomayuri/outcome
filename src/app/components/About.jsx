@@ -2,7 +2,7 @@
 
 export default function About() {
     return (
-        <section className="max-w-6xl mx-auto px-4 py-8 md:py-16">
+        <section id="que-hacemos" className="max-w-6xl mx-auto px-4 py-8 md:py-16">
             <div className="flex flex-col md:flex-row items-center gap-10">
             
                 {/* Izquierda: Título y texto */}

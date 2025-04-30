@@ -31,7 +31,7 @@ export default function Pilares() {
   ];
 
   return (
-    <section className="max-w-6xl mx-auto px-4 py-8 md:py-16">
+    <section id="pilares" className="max-w-6xl mx-auto px-4 py-8 md:py-16">
       <div className=" text-left">
         <h2 className="text-2xl font-bold text-purple-600 mb-4">NUESTROS PILARES</h2>
       </div>

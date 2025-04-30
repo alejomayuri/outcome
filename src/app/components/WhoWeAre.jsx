@@ -17,7 +17,7 @@ export default function WhoWeAre() {
   ];
 
   return (
-    <section className="max-w-4xl mx-auto px-4 py-8 md:py-16">
+    <section id="quienes-somos" className="max-w-4xl mx-auto px-4 py-8 md:py-16">
       {/* Título principal */}
       <div className="mb-12 text-left">
         <h2 className="text-2xl font-bold text-purple-600 mb-4">QUIÉNES SOMOS</h2>

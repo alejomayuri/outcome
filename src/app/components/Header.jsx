@@ -15,10 +15,10 @@ export default function Header() {
 
           {/* Menú de navegación en desktop */}
           <nav className="hidden md:flex space-x-8 text-sm">
-            <a href="#" className="text-white hover:text-purple-600">Qué hacemos</a>
-            <a href="#" className="text-white hover:text-purple-600">Servicios</a>
-            <a href="#" className="text-white hover:text-purple-600">Nuestros Pilares</a>
-            <a href="#" className="text-white hover:text-purple-600">Quiénes Somos</a>
+            <a href="#que-hacemos" className="text-white hover:text-purple-600">Qué hacemos</a>
+            <a href="#servicios" className="text-white hover:text-purple-600">Servicios</a>
+            <a href="#pilares" className="text-white hover:text-purple-600">Nuestros Pilares</a>
+            <a href="#quienes-somos" className="text-white hover:text-purple-600">Quiénes Somos</a>
           </nav>
 
           {/* Botón hamburguesa en mobile */}
@@ -34,10 +34,10 @@ export default function Header() {
       {/* Menú mobile desplegable */}
       {menuOpen && (
         <nav className="md:hidden bg-black px-4 py-4 space-y-2 text-sm">
-          <a href="#" className="block text-white hover:text-purple-600">Qué hacemos</a>
-          <a href="#" className="block text-white hover:text-purple-600">Servicios</a>
-          <a href="#" className="block text-white hover:text-purple-600">Nuestros Pilares</a>
-          <a href="#" className="block text-white hover:text-purple-600">Quiénes Somos</a>
+          <a href="#que-hacemos" className="block text-white hover:text-purple-600">Qué hacemos</a>
+          <a href="#servicios" className="block text-white hover:text-purple-600">Servicios</a>
+          <a href="#pilares" className="block text-white hover:text-purple-600">Nuestros Pilares</a>
+          <a href="#quienes-somos" className="block text-white hover:text-purple-600">Quiénes Somos</a>
         </nav>
       )}
 
@@ -45,8 +45,8 @@ export default function Header() {
       <div className="px-4 md:px-8 py-4 border-b border-gray-200 bg-white">
         <div className="w-full max-w-7xl flex justify-between items-center mx-auto">
           <nav className="flex gap-4 md:gap-8 text-sm">
-            <a href="#" className="text-black font-bold hover:text-purple-600">RECLUTAMIENTO</a>
-            <a href="#" className="text-black font-bold hover:text-purple-600">CONTACTO</a>
+            <a href="#reclutamiento" className="text-black font-bold hover:text-purple-600">RECLUTAMIENTO</a>
+            <a href="#contacto" className="text-black font-bold hover:text-purple-600">CONTACTO</a>
           </nav>
           <a href="#" className="text-black font-bold hover:text-purple-600 text-sm">ES-IN</a>
         </div>

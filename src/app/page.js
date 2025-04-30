@@ -9,7 +9,7 @@ import Recruitment from "./components/Recruitment";
 
 export default function Home() {
   return (
-    <main className="bg-white font-sans text-gray-900">
+    <main className="bg-white font-sans text-gray-900 scroll-smooth">
       {/* Header */}
       <Header />
 

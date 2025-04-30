@@ -27,7 +27,7 @@ export default function Services() {
         ],
       },
       {
-        title: "ConsultorÌa",
+        title: "Consultoría",
         image: "/servicio4.jpg",
         features: [
           "Asesorías especializadas"
@@ -36,7 +36,7 @@ export default function Services() {
     ];
   
     return (
-      <section className="max-w-6xl mx-auto px-4 py-2 md:py-4">
+      <section id="servicios" className="max-w-6xl mx-auto px-4 py-2 md:py-4">
         <div className="mb-4 md:mb-8 text-left">
           <h2 className="text-2xl font-bold text-purple-600 ">SERVICIOS</h2>
         </div>
