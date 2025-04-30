@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 
 export default function Gracias() {
   const router = useRouter();
@@ -31,12 +32,12 @@ export default function Gracias() {
         <p className="text-base md:text-lg text-gray-700 mb-6">
           Nos pondremos en contacto contigo pronto.
         </p>
-        <a
+        <Link
           href="/"
           className="inline-block font-bold text-white bg-purple-600 hover:bg-purple-700 transition px-6 py-3 rounded-lg mb-4"
         >
           Volver a la página principal
-        </a>
+        </Link>
         <p className="text-sm text-gray-500">
           Redirigiendo en <span className="font-semibold">{countdown}</span> segundos...
         </p>
