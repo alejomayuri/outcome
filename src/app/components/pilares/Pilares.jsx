@@ -15,17 +15,17 @@ export default function Pilares() {
     },
     {
       title: "Excelencia operativa como <span class='text-purple-600'>estándar</span>",
-      image: "/servicio3.jpg",
+      image: "/pilar2.jpg",
       description: "La confianza de nuestros aliados es esencial. Superamos expectativas con eficacia, acompañamiento continuo y comunicación clara. Cada servicio es una oportunidad para innovar, optimizar procesos y aportar valor tangible.",
     },
     {
       title: "Personas al centro de <span class='text-purple-600'>nuestras operaciones</span>",
-      image: "/pilar1.jpg",
+      image: "/pilar3.jpg",
       description: "Nuestro equipo impulsa cada resultado. Contamos con profesionales comprometidos, minuciosos y resolutivos. Cuidar a las personas es clave para alcanzar resultados sostenibles y responder a cada requerimiento con calidad.",
     },
     {
       title: "Crecemos junto a <span class='text-purple-600'>nuestros socios</span>",
-      image: "/servicio3.jpg",
+      image: "/pilar4.jpg",
       description: "Nos adaptamos constantemente. Buscamos mejorar procesos y enriquecer la experiencia de quienes confían en nosotros. Cada servicio fortalece vínculos y potencia el éxito compartido.",
     },
   ];

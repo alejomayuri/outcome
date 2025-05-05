@@ -8,7 +8,7 @@ export default function WhoWeAre() {
         "Javier ha liderado operaciones en seguridad física, aviación y edificios corporativos, en una de las empresas más importantes del sector, destacándose en la gestión de escenarios complejos. Su enfoque ha sido clave en el desarrollo de planes que optimizan la seguridad y gestionan los riesgos en áreas críticas. En Outcome Solution, aplica su experiencia para crear estrategias que enfrentan los desafíos más exigentes y garantizan la seguridad.",
     },
     {
-      image: "/persona1.jpg",
+      image: "/persona2.jpg",
       title: "Jack Guzmán",
       subtitle: "Gerente de Operaciones",
       description:

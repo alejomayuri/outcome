@@ -22,8 +22,8 @@ export default function Services() {
         title: "Operaciones Aeroportuarias",
         image: "/servicio3.jpg",
         features: [
-          "Security aeronáutico",
-          "Atención a personas con poca movilidad",
+          "Aviation Security",
+          "Atención a personas con movilidad reducida",
         ],
       },
       {

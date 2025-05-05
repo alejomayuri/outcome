@@ -33,11 +33,11 @@ export default function Recruitment() {
           </div>
   
           {/* Imagen */}
-          <div className="md:w-1/2">
+          <div className="md:w-1/2 md:h-[380px] h-auto mb-6 md:mb-0">
             <img 
-              src="/reclutamiento.jpg" 
+              src="/rec-image.jpg" 
               alt="Reclutamiento" 
-              className="w-full h-auto object-cover rounded-lg shadow-md"
+              className="w-full h-full object-cover rounded-lg shadow-md"
             />
           </div>
         </div>

@@ -10,18 +10,18 @@ export default function Gracias() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCountdown(prev => {
-        if (prev <= 1) {
-          clearInterval(interval);
-          router.push('/');
-          return 0;
-        }
-        return prev - 1;
-      });
+      setCountdown(prev => prev - 1);
     }, 1000);
 
     return () => clearInterval(interval);
-  }, [router]);
+  }, []);
+
+  // Redirigir cuando el countdown llegue a 0
+  useEffect(() => {
+    if (countdown === 0) {
+      router.push('/');
+    }
+  }, [countdown, router]);
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-black text-white px-6 text-center">
