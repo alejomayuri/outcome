@@ -44,7 +44,7 @@ export default function Home() {
       <footer className="bg-purple-700 text-white text-center">
         <div className="w-full bg-black text-white">
           <p className="text-md font-bold text-purple-600 py-4">
-            JUNTOS, LLEVAMOS LA OPERACIÓN DE TU EMPRESA AL SIGUIENTE NIVEL
+            JUNTOS LLEVAMOS LA OPERACIÓN DE TU EMPRESA AL SIGUIENTE NIVEL
           </p>
           <div className="flex bg-purple-600 justify-center py-4">
             <img

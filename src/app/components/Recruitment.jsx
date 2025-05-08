@@ -1,8 +1,8 @@
 export default function Recruitment() {
     const beneficios = [
-      "Desarrollamos tu crecimiento en un entorno activo.",
-      "Impulsamos tu participación en iniciativas con impacto concreto.",
-      "Promovemos una cultura que reconoce, conecta y valora.",
+      "Desarrollamos tu crecimiento en un entorno activo",
+      "Impulsamos tu participación en iniciativas con impacto concreto",
+      "Promovemos una cultura que reconoce, conecta y valora",
     ];
   
     return (
