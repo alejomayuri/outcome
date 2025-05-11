@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-          <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="bg-white font-sans text-gray-900 scroll-smooth">
         {/* Header */}
@@ -48,14 +48,14 @@ export default function Home() {
         {/* Footer */}
         <footer className="bg-purple-700 text-white text-center">
           <div className="w-full bg-black text-white">
-            <p className="text-md font-bold text-purple-600 py-4">
+            <p className="text-md font-bold text-purple-600 py-4 px-4">
               JUNTOS LLEVAMOS LA OPERACIÓN DE TU EMPRESA AL SIGUIENTE NIVEL
             </p>
             <div className="flex bg-purple-600 justify-center py-4">
               <img
                 src="/logo.png"
                 alt="Logo"
-                className="h-12"
+                className="h-12 w-full max-w-[600px] object-contain px-4"
                 style={{ filter: 'brightness(0) saturate(100%)' }}
               />
             </div>

@@ -11,8 +11,8 @@ export default function About() {
                     <p className="text-gray-700 text-lg leading-relaxed">
                         Nos especializamos en diseñar y ejecutar soluciones que
                         responden con agilidad y precisión a los desafíos de cada
-                        socio. Como aliados estratégicos, fortalecemos tus
-                        operaciones en Latinoamérica con un enfoque sólido y un
+                        socio. Como aliados estratégicos, <b>fortalecemos tus
+                        operaciones</b> en Latinoamérica con un enfoque sólido y un
                         compromiso constante con la excelencia.
                     </p>
                 </div>
