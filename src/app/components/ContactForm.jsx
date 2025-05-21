@@ -16,7 +16,7 @@ export default function FormContact() {
       </div>
 
       <form
-        action="https://formsubmit.co/alejomayuri@gmail.com"
+        action="https://formsubmit.co/javier.riesco@outcomesolution.com"
         method="POST"
         id="contactForm"
         className="flex flex-col"
