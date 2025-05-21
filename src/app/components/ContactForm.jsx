@@ -22,7 +22,7 @@ export default function FormContact() {
         className="flex flex-col"
       >
         <input type="hidden" name="_captcha" value="false" />
-        <input type="hidden" name="_next" value="http://localhost:3000/gracias" />
+        <input type="hidden" name="_next" value="https://outcomesolution.com/gracias" />
         <input type="hidden" name="_subject" value="Nuevo mensaje desde el formulario web" />
 
         <select

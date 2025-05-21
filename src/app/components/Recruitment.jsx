@@ -31,7 +31,7 @@ export default function Recruitment() {
 
           <p className="text-purple-600 font-bold max-w-[340px] mb-6">
             Conoce nuestras oportunidades y postula
-            a través de nuestro perfil en LinkedIn.
+            a través de nuestro perfil en <a href="https://www.linkedin.com/company/outcomesolution/about/" target="_blank">LinkedIn</a>.
           </p>
         </div>
 
